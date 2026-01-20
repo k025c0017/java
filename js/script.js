@@ -18,7 +18,7 @@ window.addEventListener("load", () => {
 
 
   tl.to([matuya, kawasaki], {
-    color: "#0067C0", 
+    css:{color: "#0067C0", },
     duration: 0.4,
     ease: "power1.out"
   });
