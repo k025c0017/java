@@ -68,12 +68,34 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
-  opacity: 0; 
+  opacity: 0;
+  transform-origin: center bottom; 
+  position: relative;
 }
+
 .title span {
   position: relative;
   display: inline-block;
   white-space: nowrap;
+  color: #222; 
+}
+
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background: #f39c12; 
+  transition: width 0.5s ease;
+  border-radius: 2px;
+}
+
+
+.title.underline-active::after {
+  width: 100%;
 }
 
 
