@@ -60,19 +60,15 @@ body {
 }
 
 .title {
-    position: relative;
-    height: 60px;
-    margin: 40px 0;
-    font-size: 48px;
-    overflow: hidden;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .title span {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
 }
 
 .gallery {
