@@ -63,13 +63,19 @@ body {
   font-size: 48px;
   font-weight: bold;
   text-align: center;
+  user-select: none;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  opacity: 0; 
 }
-
 .title span {
   position: relative;
   display: inline-block;
-  margin: 0 10px;
+  white-space: nowrap;
 }
+
 
 
 .gallery {
