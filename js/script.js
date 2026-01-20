@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
   });
 
   gsap.to("#kawasaki", {
-    x: 110,
+    x: 100,
     duration: 3,
     ease: "sine.out"
   });
