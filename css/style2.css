@@ -69,7 +69,7 @@ body {
   justify-content: center;
   gap: 10px;
   opacity: 0;
-  transform-origin: center bottom; 
+  transform-origin: center bottom;
   position: relative;
 }
 
@@ -77,27 +77,19 @@ body {
   position: relative;
   display: inline-block;
   white-space: nowrap;
-  color: #222; 
+  color: #222;
 }
-
 
 .title::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   height: 4px;
   width: 0;
-  background: #f39c12; 
-  transition: width 0.5s ease;
+  background: #f39c12;
   border-radius: 2px;
 }
-
-
-.title.underline-active::after {
-  width: 100%;
-}
-
 
 
 .gallery {
