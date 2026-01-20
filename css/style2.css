@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fce2c4;
+    color: #333;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    margin: 0;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #b0c4de;
+    border-bottom: 2px solid #000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #cda16f;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-section {
+    padding: 40px 0;
+}
+
+.main-logo {
+    max-width: 400px;
+    width: 90%;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.photo-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.promo-video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo-card p {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.btn-area {
+    margin: 50px 0;
+}
+
+.btn-order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ed9e01;
+    color: #000;
+    width: 400px;
+    max-width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 3px solid #000;
+    border-radius: 40px;
+    box-shadow: 0 6px 0 #000;
+    transition: all 0.1s;
+    position: relative;
+    top: 0;
+}
+
+.btn-order:hover {
+    background-color: #b88d5a;
+}
+
+.btn-order:active {
+    top: 4px;
+    box-shadow: 0 2px 0 #000;
+}
+
+footer {
+    padding: 40px 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .logo-area {
+        margin-bottom: 10px;
+    }
+    .nav li {
+        margin: 0 10px;
+    }
+}
