@@ -3,15 +3,15 @@ window.addEventListener("load", () => {
   gsap.set("#kawasaki", { x: "100vw" });
 
   gsap.to("#matsuya", {
-    x: "-50",
+    x: -110,
     duration: 3,
-    ease: "power3.out"
+    ease: "sine.out"
   });
 
   gsap.to("#kawasaki", {
-    x: "60",
+    x: 110,
     duration: 3,
-    ease: "power3.out"
+    ease: "sine.out"
   });
 
   gsap.to("#matsuya", {
