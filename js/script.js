@@ -8,9 +8,9 @@ window.addEventListener("load", () => {
 
   const tl = gsap.timeline();
 
-  
-  tl.to("#matsuya", { x: 0, opacity: 1, duration, ease: easeType }, 0);
-  tl.to("#kawasaki", { x: 0, opacity: 1, duration, ease: easeType }, 0);
+
+  tl.to("#matsuya", { x: 0, opacity: 1, duration, ease: easeType, color: "black" }, 0);
+  tl.to("#kawasaki", { x: 0, opacity: 1, duration, ease: easeType, color: "black" }, 0);
 
 
   tl.to(".title", {
