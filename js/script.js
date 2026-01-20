@@ -13,4 +13,18 @@ window.addEventListener("load", () => {
     duration: 3,
     ease: "power3.out"
   });
+
+  gsap.to("#matsuya", {
+  x: "-60",
+  duration: 4,
+  ease: "sine.out"
+  });
+
+
+  gsap.to("#kawasaki", {
+  x: "60",
+  duration: 4,
+  ease: "sine.out"
+});
+
 });
